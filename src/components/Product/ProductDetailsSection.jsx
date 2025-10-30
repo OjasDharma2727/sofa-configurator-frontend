@@ -10,7 +10,7 @@ const ProductDetailsSection = () => {
           Product details
         </h2>
 
-        {/* ✅ SPECIFICATIONS SECTION */}
+        {/*  SPECIFICATIONS SECTION */}
         <div className="border rounded-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 text-lg">
             <div className="font-semibold text-gray-700">
@@ -29,7 +29,7 @@ const ProductDetailsSection = () => {
           </div>
         </div>
 
-        {/* ✅ PRODUCT REVIEWS SECTION */}
+        {/*  PRODUCT REVIEWS SECTION */}
         <div className="mt-20">
           <div className="flex justify-between items-center">
             <h2 className="text-3xl font-semibold text-gray-800">
@@ -41,7 +41,7 @@ const ProductDetailsSection = () => {
             </button>
           </div>
 
-          {/* ✅ QUESTIONS SECTION */}
+          {/*  QUESTIONS SECTION */}
           <div className="mt-12">
             <h3 className="text-2xl font-semibold text-gray-800">
               How can we help you?
@@ -53,7 +53,7 @@ const ProductDetailsSection = () => {
               Have a question? Ask us here.
             </p>
 
-            {/* ✅ Q&A FORM */}
+            {/*  Q&A FORM */}
             <form className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
               <div className="md:col-span-2 flex flex-col">
                 <label className="font-semibold mb-1">Name: *</label>
