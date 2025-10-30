@@ -6,7 +6,7 @@ import {
   FaYoutube,
   FaLinkedinIn,
 } from "react-icons/fa";
-import Logo from "../../assets/logo192.png"; // ✅ fixed path
+import Logo from "../../assets/logo192.png"; // 
 
 const Footer = () => {
   return (
