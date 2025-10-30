@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TopBar from "./components/Header/TopBar";
+import MiddleBar from "./components/Header/MiddleBar";
+import NavMenu from "./components/Header/NavMenu";
+import ProductPage from "./pages/ProductPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TopBar />
+      <MiddleBar />
+      <NavMenu />
+
+      {/* ✅ Product Page Content (Breadcrumb will be shown INSIDE ProductPage) */}
+      <ProductPage />
+    </>
   );
-}
+};
 
 export default App;
