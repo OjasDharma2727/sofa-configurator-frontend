@@ -98,7 +98,7 @@ const Footer = () => {
           </h4>
           <p className="text-sm leading-7">
             Ahmedabad | Bengaluru | Mumbai | Chennai | Delhi | Pune | … and more
-            🚩
+            
           </p>
         </div>
 
