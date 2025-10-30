@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 
 const ProductDetailsSection = () => {
   return (
@@ -98,7 +98,7 @@ const ProductDetailsSection = () => {
         </div>
       </div>
 
-      {/* ✅ FOOTER ATTACHED BELOW */}
+      {}
       <Footer />
     </>
   );

@@ -3,11 +3,11 @@ import { FiHeart, FiShare2, FiChevronRight } from "react-icons/fi";
 
 // Import components
 import Breadcrumb from "../components/Header/Breadcrumb";
-import ProductOfferBox from "./ProductOfferBox";
-import ProductInfoPanel from "./ProductInfoPanel";
-import BottomStickyBar from "../components/Header/Product/BottomStickyBar";
-import ProductWhyCarousel from "./ProductWhyCarousel";
-import ProductDetailsSection from "./ProductDetailsSection";
+import ProductOfferBox from "../components/Product/ProductOfferBox";
+import ProductInfoPanel from "../components/Product/ProductInfoPanel";
+import BottomStickyBar from "../components/Product/BottomStickyBar";
+import ProductWhyCarousel from "../components/Product/ProductWhyCarousel";
+import ProductDetailsSection from "../components/Product/ProductDetailsSection";
 
 const ProductPage = () => {
   return (

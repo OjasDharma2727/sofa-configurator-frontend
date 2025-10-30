@@ -6,18 +6,17 @@ import {
   FaYoutube,
   FaLinkedinIn,
 } from "react-icons/fa";
-import Logo from "../assets/logo192.png"; //
+import Logo from "../../assets/logo192.png"; // ✅ fixed path
 
 const Footer = () => {
   return (
     <footer className="bg-[#3B3636] text-gray-300 pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-6">
-        {}
+        {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10 pb-12 border-b border-gray-600">
-          {}
+          {/* Brand Section */}
           <div className="col-span-1">
             <img src={Logo} alt="Interio Logo" className="h-14 mb-6" />
-
             <h4 className="text-sm font-medium mb-3">Follow us on</h4>
             <div className="flex gap-4">
               <FaFacebookF className="cursor-pointer hover:text-white" />
